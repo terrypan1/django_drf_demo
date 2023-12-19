@@ -40,11 +40,11 @@ class InfoView(APIView):
 - python manage.py makemigrations
 - python manage.py migrate
 INSTALLED_APPS = [
-    # "django.contrib.admin",
-    # "django.contrib.auth",
-    # "django.contrib.contenttypes",
-    # "django.contrib.sessions",
-    # "django.contrib.messages",
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
     "app01"
