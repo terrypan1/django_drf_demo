@@ -1,12 +1,12 @@
 # django
-
-### python -m venv venv
-### venv\Scripts\activate 進入虛擬環境
-### python -m pip install --upgrade pip
-### pip freeze > requirements.txt
-### pip install django
-### pip install python-dotenv
-### pip install djangorestframework 
+### init
+- python -m venv venv
+- venv\Scripts\activate 進入虛擬環境
+- python -m pip install --upgrade pip
+- pip freeze > requirements.txt
+- pip install django
+- pip install python-dotenv
+- pip install djangorestframework 
 - https://www.django-rest-framework.org/#installation
 ### 1.django-admin startproject [項目名稱]
 ### 2.python manage.py startapp app01
